@@ -1,6 +1,6 @@
 # Conference Registration Form
 
-## This project is nested conference registration form built with HTML. It allows users to register for a conference entering their personal details,selecting sessions and other additional options.
+## This project is a nested conference registration form built with HTML. It allows users to register for a conference entering their personal details,selecting sessions and other additional options.
 
 ## FEATURES
 
