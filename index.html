@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conference Registration Form</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <br />
+        <label for="name">Fullname</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your Fullname"
+          required
+        />
+
+        <br />
+        <br />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your Email"
+          required
+        />
+
+        <br />
+        <br />
+
+        <label for="phone">Phone No</label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Enter your Phone No"
+        />
+
+        <br />
+        <br />
+        <label for="name">Company No</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your Company No"
+        />
+        <br />
+        <br />
+        <label for="title">Job Title</label>
+        <input
+          type="text"
+          name="title"
+          id="title"
+          placeholder="Enter your Job Title"
+        />
+      </fieldset>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Conference Track Selection</legend>
+        <input type="checkbox" name="web development" id="web development" />
+        <label for="web development">Web Development</label>
+
+        <input type="checkbox" name="ui/ux design" id="ui/ux design" />
+        <label for="ui/ux design">UI/UX Design</label>
+
+        <input type="checkbox" name="cloud computing" id="cloud computing" />
+        <label for="cloud computing">Cloud Computing</label>
+
+        <br />
+
+        <fieldset>
+          <br />
+
+          <!-- <label for="sessions">Sessions</label> -->
+
+          Select a session
+          <select name="sessions" id="sessions">
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+          </select>
+          Select a workshop
+          <select name="workshop" id="workshop">
+            <option value="workshop">Workshop</option>
+          </select>
+        </fieldset>
+      </fieldset>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Meal Preferences</legend>
+
+        Pick an option for breakfast
+        <select name="breakfast" id="breakfast">
+          <option value="Spaghetti">Spaghetti</option>
+          <option value="Jollof Rice">Jollof Rice</option>
+        </select>
+        <br />
+        <br />
+        Pick an option for afternoon
+        <select name="afternoon" id="afternoon">
+          <option value="Spaghetti">Spaghetti</option>
+          <option value="Jollof Rice">Jollof Rice</option>
+        </select>
+        <br />
+        <br />
+        Pick an option for dinner
+        <select name="dinner" id="dinner">
+          <option value="Spaghetti">Spaghetti</option>
+          <option value="Jollof Rice">Jollof Rice</option>
+        </select>
+        <br />
+        <br />
+        Dietary Restrictions
+        <br />
+        <textarea name="dinner option" cols="70" id="dinner option">
+What are your diet restrictions?.....</textarea
+        >
+        <br />
+        <br />
+        Seating Position:
+        <input type="radio" name="seat" id="seat" />
+        <label for="seat">Front Seat</label>
+
+        <input type="radio" name="seat" id="seat" />
+        <label for="seat">Middle Seat</label>
+
+        <input type="radio" name="seat" id="seat" />
+        <label for="seat">Back Seat</label>
+      </fieldset>
+      <br />
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+      <br />
+      <br />
+      ADDITIONAL ATTENDEE (Fill this if registering for a group)
+      <br />
+      <br />
+      <legend>ATTENDEE 1</legend>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <br />
+
+        <label for="name">Fullname</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your Fullname"
+          required
+        />
+
+        <br />
+        <br />
+        <label for="name">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your Email"
+          required
+        />
+        <br />
+        <br />
+        <label for="name">Phone No</label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Enter your Phone No"
+          required
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Conference Track Selection</legend>
+        <input type="checkbox" name="web development" id="web development" />
+        <label for="web development">Web Development</label>
+
+        <input type="checkbox" name="ui/ux design" id="ui/ux design" />
+        <label for="ui/ux design">UI/UX Design</label>
+
+        <input type="checkbox" name="cloud computing" id="cloud computing" />
+        <label for="cloud computing">Cloud Computing</label>
+
+        <br />
+
+        <fieldset>
+          <br />
+          Select a session
+          <select name="sessions" id="sessions">
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+          </select>
+          Select a workshop
+          <select name="workshop" id="workshop">
+            <option value="workshop">Workshop</option>
+          </select>
+        </fieldset>
+      </fieldset>
+      <fieldset>
+        <legend>Meal Preferences</legend>
+
+        Pick an option for breakfast
+        <select name="breakfast" id="breakfast">
+          <option value="Spaghetti">Spaghetti</option>
+          <option value="Jollof Rice">Jollof Rice</option>
+        </select>
+        <br />
+        <br />
+        Pick an option for afternoon
+        <select name="afternoon" id="afternoon">
+          <option value="Spaghetti">Spaghetti</option>
+          <option value="Jollof Rice">Jollof Rice</option>
+        </select>
+        <br />
+        <br />
+        Pick an option for dinner
+        <select name="dinner" id="dinner">
+          <option value="Spaghetti">Spaghetti</option>
+          <option value="Jollof Rice">Jollof Rice</option>
+        </select>
+        <br />
+        <br />
+        Dietary Restrictions
+        <br />
+        <textarea name="dinner option" cols="70" id="dinner option">
+What are your diet restrictions?.....</textarea
+        >
+        <br />
+        <br />
+        Seating Position:
+        <input type="radio" name="seat" id="seat" />
+        <label for="seat">Front Seat</label>
+
+        <input type="radio" name="seat" id="seat" />
+        <label for="seat">Middle Seat</label>
+
+        <input type="radio" name="seat" id="seat" />
+        <label for="seat">Back Seat</label>
+      </fieldset>
+      <!-- <fieldset> -->
+      <br />
+      ATTENDEE 2
+      <!-- <legend>ATTENDEE 1</legend> -->
+      <fieldset>
+        <legend>Personal Information</legend>
+        <br />
+
+        <label for="name">Fullname</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your Fullname"
+          required
+        />
+
+        <br />
+        <br />
+        <label for="name">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your Email"
+          required
+        />
+        <br />
+        <br />
+        <label for="name">Phone No</label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Enter your Phone No"
+          required
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Conference Track Selection</legend>
+        <input type="checkbox" name="web development" id="web development" />
+        <label for="web development">Web Development</label>
+
+        <input type="checkbox" name="ui/ux design" id="ui/ux design" />
+        <label for="ui/ux design">UI/UX Design</label>
+
+        <input type="checkbox" name="cloud computing" id="cloud computing" />
+        <label for="cloud computing">Cloud Computing</label>
+
+        <br />
+
+        <fieldset>
+          <br />
+          Select a session
+          <select name="sessions" id="sessions">
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+          </select>
+          Select a workshop
+          <select name="workshop" id="workshop">
+            <option value="workshop">Workshop</option>
+          </select>
+        </fieldset>
+      </fieldset>
+      <fieldset>
+        <legend>Meal Preferences</legend>
+
+        Pick an option for breakfast
+        <select name="breakfast" id="breakfast">
+          <option value="Spaghetti">Spaghetti</option>
+          <option value="Jollof Rice">Jollof Rice</option>
+        </select>
+        <br />
+        <br />
+        Pick an option for afternoon
+        <select name="afternoon" id="afternoon">
+          <option value="Spaghetti">Spaghetti</option>
+          <option value="Jollof Rice">Jollof Rice</option>
+        </select>
+        <br />
+        <br />
+        Pick an option for dinner
+        <select name="dinner" id="dinner">
+          <option value="Spaghetti">Spaghetti</option>
+          <option value="Jollof Rice">Jollof Rice</option>
+        </select>
+        <br />
+        <br />
+        Dietary Restrictions
+        <br />
+        <textarea name="dinner option" cols="70" id="dinner option">
+What are your diet restrictions?.....</textarea
+        >
+        <br />
+        <br />
+        Seating Position:
+        <input type="radio" name="seat" id="seat" />
+        <label for="seat">Front Seat</label>
+
+        <input type="radio" name="seat" id="seat" />
+        <label for="seat">Middle Seat</label>
+
+        <input type="radio" name="seat" id="seat" />
+        <label for="seat">Back Seat</label>
+      </fieldset>
+      <br />
+      ATTENDEE 3
+      <fieldset>
+        <legend>Personal Information</legend>
+        <br />
+
+        <label for="name">Fullname</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your Fullname"
+          required
+        />
+
+        <br />
+        <br />
+        <label for="name">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your Email"
+          required
+        />
+        <br />
+        <br />
+        <label for="name">Phone No</label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Enter your Phone No"
+          required
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Conference Track Selection</legend>
+        <input type="checkbox" name="web development" id="web development" />
+        <label for="web development">Web Development</label>
+
+        <input type="checkbox" name="ui/ux design" id="ui/ux design" />
+        <label for="ui/ux design">UI/UX Design</label>
+
+        <input type="checkbox" name="cloud computing" id="cloud computing" />
+        <label for="cloud computing">Cloud Computing</label>
+
+        <br />
+
+        <fieldset>
+          <br />
+          Select a session
+          <select name="sessions" id="sessions">
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+          </select>
+          Select a workshop
+          <select name="workshop" id="workshop">
+            <option value="workshop">Workshop</option>
+          </select>
+        </fieldset>
+      </fieldset>
+      <fieldset>
+        <legend>Meal Preferences</legend>
+
+        Pick an option for breakfast
+        <select name="breakfast" id="breakfast">
+          <option value="Spaghetti">Spaghetti</option>
+          <option value="Jollof Rice">Jollof Rice</option>
+        </select>
+        <br />
+        <br />
+        Pick an option for afternoon
+        <select name="afternoon" id="afternoon">
+          <option value="Spaghetti">Spaghetti</option>
+          <option value="Jollof Rice">Jollof Rice</option>
+        </select>
+        <br />
+        <br />
+        Pick an option for dinner
+        <select name="dinner" id="dinner">
+          <option value="Spaghetti">Spaghetti</option>
+          <option value="Jollof Rice">Jollof Rice</option>
+        </select>
+        <br />
+        <br />
+        Dietary Restrictions
+        <br />
+        <textarea name="dinner option" cols="70" id="dinner option">
+What are your diet restrictions?.....</textarea
+        >
+        <br />
+        <br />
+        Seating Position:
+        <input type="radio" name="seat" id="seat" />
+        <label for="seat">Front Seat</label>
+
+        <input type="radio" name="seat" id="seat" />
+        <label for="seat">Middle Seat</label>
+
+        <input type="radio" name="seat" id="seat" />
+        <label for="seat">Back Seat</label>
+      </fieldset>
+      <br />
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
